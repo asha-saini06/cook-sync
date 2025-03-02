@@ -39,12 +39,6 @@ const Footer = () => {
                         >
                             Contact
                         </a>
-                        <a
-                            href='#'
-                            className='block md:inline-block py-2 hover:text-gray-500'
-                        >
-                            Chiefs
-                        </a>
                     </div>
                 </div>
 
@@ -114,11 +108,11 @@ const Footer = () => {
                         </a>
                     </div>
 
-                    <Button
+                  <Button
                         title='Sign up'
                         btnType='button'
-                        conteinerStyle='mt-10 md:block bg-transparent border border-white text-white hover:bg-white hover:text-black rounded-md min-w-[130px]'
-                    />
+                        containerStyle='mt-10 md:block bg-transparent border border-white text-white hover:bg-white hover:text-black rounded-md min-w-[130px]'
+                    /> 
                 </div>
             </div>
 

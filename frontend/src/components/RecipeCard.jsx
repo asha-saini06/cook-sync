@@ -9,9 +9,9 @@ const RecipeCard = ({ recipe }) => {
     const id = uri?.split("#")[1]
 
     return (
-        <Link to={`/recipes/${id}`} className='w-full md:w-[220px]'>
-            <div className='bg-_gradient shadow w-full rounded-lg'>
-                <img src={image} alt={label} className='rounded-lg h-[200px] md:h-[150px] w-full' />
+        <Link to={`/recipes/${id}`} className='w-full md:w-[220px] lg:w-[300px]'>
+            <div className='bg-gradient shadow w-full rounded-lg'>
+                <img src={image} alt={label} className='rounded-lg h-[200px] md:h-[150px] w-full object-cover  ' />
 
                 <div className='p-3'>
                     <p className='text-white font-semibold'>{label}</p>

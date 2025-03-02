@@ -10,9 +10,9 @@ const Navbar = () => {
     return (
         <header className='w-full fixed z-10 bg-black opacity-90'>
             <nav className='flex w-full py-2 md:py-3 px-4 md:px-20 items-center justify-between'>
-                <a href="/" className='flex items-center justify-center text-white text-lg cursor-pointer'>
-                    <img src={Logo} alt="Logo" className='hidden md:block w-8 h-8 lg:w-14 lg:h-14' />
-                    Cook<span>Sync</span>
+                <a href="/" className='flex items-center justify-center text-white text-lg cursor-pointer  gap-2 font-bold '>
+                    <img src={Logo} alt="Logo" className='w-8 h-8 lg:w-14 lg:h-14 object-contain ' />
+                   <p className='hidden md:block'>Cook<span className='text-green-500'>Sync</span></p>
                 </a>
 
                 <ul className='hidden md:flex text-white gap-6'>
@@ -20,10 +20,10 @@ const Navbar = () => {
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/#recipes">Explore</a>
+                        <a href="/favorites">Favorites</a>
                     </li>
                     <li>
-                        <a href="/favorites">Favorites</a>
+                        <a href="/">Create Recipe</a>
                     </li>
                 </ul>
 
